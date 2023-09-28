@@ -1,0 +1,8 @@
+a = input('\033[1;35mDigite algo: \033[m')
+print('É número? \033[1;32m{}\033[m'.format(a.isnumeric()))
+print('É alfabético? \033[1;32m{}\033[m' .format(a.isalpha()))
+print('É alfanumérico? \033[1;32m{}\033[m' .format(a.isalnum()))
+print('É só espaço? \033[1;32m{}\033[m' .format(a.isspace()))
+print('É tudo minúsculo? \033[1;32m{}\033[m' .format(a.islower()))
+print('É tudo maiúsculo? \033[1;32m{}\033[m' .format(a.isupper()))
+print('Está capitalizada? \033[1;32m{}\033[m' .format(a.istitle()))

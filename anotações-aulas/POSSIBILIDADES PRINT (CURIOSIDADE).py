@@ -1,0 +1,8 @@
+a = input('')
+print('{:20}!'.format(a))
+print('{:>20}!'.format(a))
+print('{:<20}!'.format(a))
+print('{:^20}!'.format(a))
+print('{:_^20}!'.format(a))
+print('{:_>20}!'.format(a))
+print('{:_<20}!'.format(a))

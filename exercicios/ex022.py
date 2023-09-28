@@ -1,0 +1,10 @@
+nome = str(input('Qual é o seu nome? ')).strip()
+#junto = nome.replace(' ', '')
+#dividido = nome.split()
+print('Olá, {}'.format(nome.lower()))
+print('Olá, {}'.format(nome.upper()))
+#print('O seu nome tem {} letras'.format(len(junto)))
+print('O seu nome tem {} letras'.format(len(nome) - nome.count(' ')))
+#print('O seu primeiro nome tem {} letras'.format(len(dividido[0])))
+#print('O seu primeiro nome tem {} letras'.format(len(nome.split()[0]))) minha solução
+print('O seu primeiro nome tem {} letras' .format(nome.find(' ')))
